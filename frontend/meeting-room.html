@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meeting Room Booking</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Select Room and Time Slot</h2>
+        <div class="meeting-room">
+            <h3>Meeting Room 1</h3>
+            <label for="start-time-1">Start Time:</label>
+            <select id="start-time-1" name="start-time-1">
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="9:30 AM">9:30 AM</option>
+                <!-- Add more time slots as needed -->
+            </select>
+            <label for="end-time-1">End Time:</label>
+            <select id="end-time-1" name="end-time-1">
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="10:30 AM">10:30 AM</option>
+                <!-- Add more time slots as needed -->
+            </select>
+        </div>
+        <!-- Repeat similar content for other meeting rooms -->
+
+        <!-- Dropdowns for selecting a meeting room -->
+        <label for="meeting-room">Select Meeting Room:</label>
+        <select id="meeting-room" name="meeting-room">
+            <option value="Meeting Room 1">Meeting Room 1</option>
+            <option value="Meeting Room 2">Meeting Room 2</option>
+            <option value="Meeting Room 3">Meeting Room 3</option>
+            <option value="Meeting Room 4">Meeting Room 4</option>
+            <option value="Meeting Room 5">Meeting Room 5</option>
+        </select>
+
+        <!-- Book button -->
+        <button id="book-button" class="button">Book</button>
+    </div>
+    
+</body>
+</html>
